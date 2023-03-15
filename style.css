@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 共通部分 
+----------------------------------*/
+html {
+  font-size: 100%;
+  background-image: url(../images/KAZ7842_asdfsd_TP_V4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+    "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/*header
+----------------------------------*/
+h1{
+    color: black;
+    text-align: center;
+    font-size: 10rem;
+    background: rgb(255, 255, 255,0.5);
+}
+
+/*contents
+----------------------------------*/
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+  }
+
+/*footer
+----------------------------------*/
